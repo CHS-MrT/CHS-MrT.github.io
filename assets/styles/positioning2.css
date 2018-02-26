@@ -1,0 +1,88 @@
+body {
+    font-family: 'Poiret One', cursive;
+
+}
+
+.mytext {
+    font-size:16px
+}
+
+.mytext span {
+    font-size:30px;
+}
+.nicetext {
+    text-shadow: 5px 10px 2px rgb(48, 48, 48);
+    text-align:center;
+    font-size:36px;
+    font-weight:900;
+    color:#fff;
+    text-transform:uppercase;
+}
+
+.boxp1 {
+    height:200px;
+    width:200px;
+    margin: 10px;
+    background-color:#f00;
+    line-height: 200px;
+}
+
+.boxrp1{
+    height:200px;
+    width:200px;
+    margin: 10px;
+    background-color:rgb(0, 134, 0);
+    position: relative;
+    left:50px;
+    line-height: 200px;
+}
+
+.boxap1{
+    height:200px;
+    width:200px;
+    margin: 10px;
+    background-color:#00f;
+    position: absolute;
+    top:50px;
+    left:300px;
+    line-height: 200px;
+}
+
+.boxap2{
+    height:300px;
+    width:450px;
+    margin: 10px;
+    background-color:rgb(187, 40, 224);
+    position: absolute;
+    top:300px;
+    left:400px;
+    line-height: 300px;
+}
+
+.boxbottom{
+    height:50px;
+    width:100%;
+    background-color:rgb(170, 32, 32);
+    position: absolute;
+    bottom:0;
+    line-height: 50px;
+    text-align:center;
+    font-size:24px;
+    color:#fff;
+}
+
+footer{
+    height:50px;
+    width:100%;
+    background-color:rgb(48, 48, 48);
+    /* position: absolute;
+    bottom:0; */
+    line-height: 50px;
+    text-align:center;
+    font-size:24px;
+    color:#fff;
+}
+.btn {
+    height:50px;
+    line-height: 50px;
+}

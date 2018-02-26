@@ -1,0 +1,81 @@
+body {
+    margin:40px;
+}
+
+.wrapper {
+    display:grid;
+    /* grid-template-columns: 100px 100px;
+    grid-template-columns: 100px 100px 100px; 
+    grid-template-columns: 100px 100px 100px 100px;  */
+    grid-gap:20px;
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+
+.box {
+    background-color:#444;
+    color:#fff;
+    border-radius:5px;
+    padding:20px;
+    font-size: 150%;
+}
+
+/* Specify start and finish positions for each row and column */
+.a{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.b{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.c{
+    grid-column-start :1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.d{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.e{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.f{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.g{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+
+/* alternative - specify start and finish positions using 3/4 shorthand */
+/* also, use span to get component span more than one grid 'cell' */
+
+.a2{
+    grid-column: 3/4;  /* go from column 3 to 4 */
+    grid-row: 1/2;      /* go from row 1 to 2 */
+}
+.b2{
+    grid-column: 1/ span 2;  /* span 2 columns from 1 */
+    grid-row: 1/ 2 
+}
+.c2{
+    grid-column: 1/ span 3;
+    grid-row: 2/ 3;
+}

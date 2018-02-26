@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.row {
+    display:table;
+    border-spacing:0.5em;
+}
+
+.col {
+    padding: 2em;
+    display: table-cell;
+    border: #000000 3px solid;
+    background-color: #7a7a7a;
+    border-radius: 10px 30px;
+}
